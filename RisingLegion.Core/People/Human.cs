@@ -31,12 +31,15 @@ namespace RisingLegion.Core.People
 
         #region Attributes
 
-        public long MaxHealth { get; set; }
-        public long CurrentHealth { get; set; }
-        public long MaxDamage { get; set; }
-        public long MaxDefense { get; set; }
-        public List<Element> Elements { get; set; }
-        public List<IStat> Attributeses { get; set; }
+        public long MaxHealth => Warrior.BaseHealth;
+        //TODO: Implement CurrentHealth
+        public long CurrentHealth => Warrior.BaseHealth;
+        public long TotalDamage => Warrior.BaseDamage;
+        public long MaxDefense => Warrior.BaseDefense;
+        
+        //TODO: Implement Elements and Magic
+        //public List<Element> Elements { get; set; }
+        public List<IStat> Attributeses { private get; set; }
 
         public long CurrentIntelligence => GetCurrentAttribute(StatTypes.Intelligence);
         public long CurrentStrength => GetCurrentAttribute(StatTypes.Strength);
@@ -53,6 +56,8 @@ namespace RisingLegion.Core.People
         #region Rank
 
         public Warrior Warrior { get; }
+        //TODO: Implement Elements and Magic
+        //public Magus Magus { get; }
 
         #endregion
 
@@ -68,7 +73,7 @@ namespace RisingLegion.Core.People
             var currentLevel = 1;
             var experienceNeeded = baseExperience;
             var totalExperience = 0;
-            int experienceMultiplier = 1;
+            var experienceMultiplier = 1;
             for (var i = 0; i < Age; i++)
             {
                 totalExperience = totalExperience + talent;

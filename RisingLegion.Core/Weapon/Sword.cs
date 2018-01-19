@@ -5,6 +5,8 @@
         public Sword()
         {
             IsMelee = true;
+            IsMagic = false;
+            IsRanged = false;
         }
     }
 }

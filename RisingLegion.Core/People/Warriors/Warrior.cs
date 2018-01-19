@@ -1,52 +1,34 @@
-﻿using System;
-
-namespace RisingLegion.Core.People.Warriors
+﻿namespace RisingLegion.Core.People.Warriors
 {
     public class Warrior
     {
-        public Warrior()
-        {
-            Random rnd = new Random();
-            WarriorIncreaseByLevel = rnd.Next(1, 100);
-        }
         public Warrior(double warriorIncreaseByLevel, int talent, int currentRank)
         {
             WarriorIncreaseByLevel = warriorIncreaseByLevel;
             Talent = talent;
             CurrentRank = currentRank;
         }
-        public int CurrentRank { get; set; }
+        
+        private int CurrentRank { get; }
         private double WarriorIncreaseByLevel { get; }
         private int Talent { get; }
 
-        public long MaxHealth
+        public long BaseHealth => getTotalByTalent(1.5);
+
+        public long BaseDamage => getTotalByTalent(3);
+
+        public long BaseDefense => getTotalByTalent(4);
+
+        private long getTotalByTalent(double increaseDivider)
         {
-            get
+            var totalIncrease = WarriorIncreaseByLevel + Talent;
+            totalIncrease = totalIncrease / increaseDivider;
+            double total = 1;
+            for (int i = 0; i < CurrentRank; i++)
             {
-                var totalIncrease = WarriorIncreaseByLevel + Talent;
-                totalIncrease = totalIncrease / 1.5;
-                double total = 1;
-                for (var i = 0; i < CurrentRank; i++)
-                {
-                    total = total * totalIncrease;
-                }
-                return (long) total;
+                total = total * totalIncrease;
             }
-        }
-        
-        public long MaxDamage
-        {
-            get
-            {
-                double totalIncrease = WarriorIncreaseByLevel + Talent;
-                totalIncrease = totalIncrease / 3;
-                double total = 1;
-                for (int i = 0; i < CurrentRank; i++)
-                {
-                    total = total * totalIncrease;
-                }
-                return (long) total;
-            }
+            return (long) total;
         }
     }
 }

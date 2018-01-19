@@ -5,6 +5,8 @@
         public Bow()
         {
             IsMelee = false;
+            IsMagic = false;
+            IsRanged = true;
         }
     }
 }

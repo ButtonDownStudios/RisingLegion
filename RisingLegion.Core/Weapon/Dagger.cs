@@ -5,6 +5,8 @@
         public Dagger()
         {
             IsMelee = true;
+            IsMagic = false;
+            IsRanged = false;
         }
     }
 }

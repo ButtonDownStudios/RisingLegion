@@ -4,7 +4,9 @@
     {
         public Staff()
         {
-            IsMelee = true;
+            IsMelee = false;
+            IsMagic = true;
+            IsRanged = false;
         }
     }
 }

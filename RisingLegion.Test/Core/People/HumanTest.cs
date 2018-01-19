@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using RisingLegion.Core.People;
-using RisingLegion.Core.People.Warriors;
 using RisingLegion.Core.Stats;
 using Xunit;
 
-namespace MightyRealm.Test
+namespace RisingLegion.Test.Core.People
 {
     public class HumanTest
     {
@@ -61,13 +59,18 @@ namespace MightyRealm.Test
         [Fact]
         public void CanGetProperHealth()
         {
-            Assert.True(_human.Warrior.MaxHealth < _human2.Warrior.MaxHealth);
+            Assert.True(_human.Warrior.BaseHealth < _human2.Warrior.BaseHealth);
         }
 
         [Fact]
         public void CanGetProperDamage()
         {
-            Assert.True(_human.Warrior.MaxDamage < _human2.Warrior.MaxDamage);
+            Assert.True(_human.Warrior.BaseDamage < _human2.Warrior.BaseDamage);
+        }
+        [Fact]
+        public void CanGetProperDefense()
+        {
+            Assert.True(_human.Warrior.BaseDefense < _human2.Warrior.BaseDefense);
         }
     }
 }

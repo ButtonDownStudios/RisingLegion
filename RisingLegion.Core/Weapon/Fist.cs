@@ -5,6 +5,8 @@
         public Fist()
         {
             IsMelee = true;
+            IsMagic = false;
+            IsRanged = false;
         }
     }
 }

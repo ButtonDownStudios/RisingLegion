@@ -8,5 +8,7 @@ namespace RisingLegion.Core.Weapon
         public Rarity Rarity { get; set; }
         public Element Element { get; set; }
         public bool IsMelee { get; set; }
+        public bool IsRanged { get; set; }
+        public bool IsMagic { get; set; }
     }
 }
