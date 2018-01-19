@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\albarracinca\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\netcoreapp1.0\xunit.runner.reporters.netstandard15.dll" t="Include" />
+    <e p="C:\Users\albarracinca\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\netcoreapp1.0\xunit.runner.utility.netstandard15.dll" t="Include" />
+    <e p="C:\Users\albarracinca\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\albarracinca\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_RisingLegion.97878164.00" t="ExcludeRecursive" />
+    <e p="C:\Users\albarracinca\RiderProjects\RisingLegion" t="IncludeFlat">
+      <e p="Business" t="Include" />
+      <e p="Core" t="Include" />
+      <e p="Data" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Presentation" t="Include" />
+      <e p="RisingLegion" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClientApp" t="Include">
+          <e p="app" t="Include">
+            <e p="app.browser.module.ts" t="Include" />
+            <e p="app.server.module.ts" t="Include" />
+            <e p="app.shared.module.ts" t="Include" />
+            <e p="components" t="Include">
+              <e p="app" t="Include">
+                <e p="app.component.css" t="Include" />
+                <e p="app.component.html" t="Include" />
+                <e p="app.component.ts" t="Include" />
+              </e>
+              <e p="counter" t="Include">
+                <e p="counter.component.html" t="Include" />
+                <e p="counter.component.spec.ts" t="Include" />
+                <e p="counter.component.ts" t="Include" />
+              </e>
+              <e p="fetchdata" t="Include">
+                <e p="fetchdata.component.html" t="Include" />
+                <e p="fetchdata.component.ts" t="Include" />
+              </e>
+              <e p="home" t="Include">
+                <e p="home.component.html" t="Include" />
+                <e p="home.component.ts" t="Include" />
+              </e>
+              <e p="navmenu" t="Include">
+                <e p="navmenu.component.css" t="Include" />
+                <e p="navmenu.component.html" t="Include" />
+                <e p="navmenu.component.ts" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="boot.browser.ts" t="Include" />
+          <e p="boot.server.ts" t="Include" />
+          <e p="dist" t="Include">
+            <e p="89889688147bd7575d6327160d64e760.svg" t="Include" />
+            <e p="main-server.js" t="Include" />
+            <e p="vendor.js" t="Include" />
+          </e>
+          <e p="test" t="Include">
+            <e p="boot-tests.ts" t="Include" />
+            <e p="karma.conf.js" t="Include" />
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+          <e p="SampleDataController.cs" t="Include" />
+        </e>
+        <e p="npm-shrinkwrap.json" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="RisingLegion.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="package.json" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="RisingLegion.csproj" t="IncludeRecursive" />
+        <e p="Startup.cs" t="Include" />
+        <e p="tsconfig.json" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="webpack.config.js" t="Include" />
+        <e p="webpack.config.vendor.js" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="dist" t="Include">
+            <e p="89889688147bd7575d6327160d64e760.svg" t="Include" />
+            <e p="main-client.js" t="Include" />
+            <e p="main-client.js.map" t="Include" />
+            <e p="vendor-manifest.json" t="Include" />
+            <e p="vendor.css" t="Include" />
+            <e p="vendor.js" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+        </e>
+      </e>
+      <e p="RisingLegion.Core" t="IncludeRecursive">
+        <e p="Armor" t="Include">
+          <e p="_Armor.cs" t="Include" />
+          <e p="Boots.cs" t="Include" />
+          <e p="FullSet.cs" t="Include" />
+          <e p="Gloves.cs" t="Include" />
+          <e p="Helm.cs" t="Include" />
+          <e p="IArmor.cs" t="Include" />
+          <e p="Shield.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Currency" t="Include">
+          <e p="_Currency.cs" t="Include" />
+          <e p="Copper.cs" t="Include" />
+          <e p="Gold.cs" t="Include" />
+          <e p="Silver.cs" t="Include" />
+        </e>
+        <e p="Loot" t="Include">
+          <e p="_Loot.cs" t="Include" />
+          <e p="Treasure.cs" t="Include" />
+        </e>
+        <e p="Magic" t="Include">
+          <e p="_Magic.cs" t="Include" />
+          <e p="Edict.cs" t="Include" />
+          <e p="Element.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="RisingLegion.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="People" t="Include">
+          <e p="_People.cs" t="Include" />
+          <e p="Human.cs" t="Include" />
+          <e p="Warriors" t="Include">
+            <e p="Warrior.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Places" t="Include">
+          <e p="_Place.cs" t="Include" />
+          <e p="City.cs" t="Include" />
+          <e p="Kingdom.cs" t="Include" />
+          <e p="LegendaryLandmark.cs" t="Include" />
+          <e p="Plane.cs" t="Include" />
+        </e>
+        <e p="RisingLegion.Core.csproj" t="IncludeRecursive" />
+        <e p="Stats" t="Include">
+          <e p="_Stats.cs" t="Include" />
+          <e p="Dexterity.cs" t="Include" />
+          <e p="Intelligence.cs" t="Include" />
+          <e p="IStat.cs" t="Include" />
+          <e p="Strength.cs" t="Include" />
+        </e>
+        <e p="Weapon" t="Include">
+          <e p="_Weapon.cs" t="Include" />
+          <e p="Bow.cs" t="Include" />
+          <e p="Dagger.cs" t="Include" />
+          <e p="Fist.cs" t="Include" />
+          <e p="IWeapon.cs" t="Include" />
+          <e p="Staff.cs" t="Include" />
+          <e p="Sword.cs" t="Include" />
+        </e>
+      </e>
+      <e p="RisingLegion.Helpers" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Constants.cs" t="Include" />
+        <e p="Enum" t="Include">
+          <e p="Magic" t="Include">
+            <e p="Edicts.cs" t="Include" />
+            <e p="Elements.cs" t="Include" />
+          </e>
+          <e p="People" t="Include">
+            <e p="DemiGod.cs" t="Include" />
+            <e p="God.cs" t="Include" />
+            <e p="HighGod.cs" t="Include" />
+            <e p="MagusRanks.cs" t="Include" />
+            <e p="Saints.cs" t="Include" />
+            <e p="Sovereign.cs" t="Include" />
+            <e p="StatTypes.cs" t="Include" />
+            <e p="WarriorRanks.cs" t="Include" />
+          </e>
+          <e p="Weapon" t="Include">
+            <e p="Rarity.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="RisingLegion.Helpers.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RisingLegion.Helpers.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="RisingLegion.sln" t="IncludeFlat" />
+      <e p="RisingLegion.Test" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Core" t="Include">
+          <e p="People" t="Include">
+            <e p="HumanTest.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="RisingLegion.Test.AssemblyInfo.cs" t="Include" />
+              <e p="RisingLegion.Test.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RisingLegion.Test.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="test" t="Include" />
+    </e>
+  </component>
+</project>

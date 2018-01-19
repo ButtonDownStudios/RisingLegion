@@ -1,0 +1,49 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\albarracinca\\RiderProjects\\RisingLegion\\RisingLegion.Test\\RisingLegion.Test.csproj",
+    "projectName": "RisingLegion.Test",
+    "projectPath": "C:\\Users\\albarracinca\\RiderProjects\\RisingLegion\\RisingLegion.Test\\RisingLegion.Test.csproj",
+    "outputPath": "C:\\Users\\albarracinca\\RiderProjects\\RisingLegion\\RisingLegion.Test\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "C:\\Users\\albarracinca\\RiderProjects\\RisingLegion\\RisingLegion.Core\\RisingLegion.Core.csproj": {
+            "projectPath": "C:\\Users\\albarracinca\\RiderProjects\\RisingLegion\\RisingLegion.Core\\RisingLegion.Core.csproj"
+          }
+        }
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "2.0"
+        },
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "15.3.0"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "2.2.0"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "2.2.0"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

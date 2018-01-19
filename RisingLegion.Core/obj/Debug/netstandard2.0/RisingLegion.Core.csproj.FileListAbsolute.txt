@@ -1,0 +1,10 @@
+C:\Users\albarracinca\RiderProjects\RisingLegion\RisingLegion.Core\obj\Debug\netstandard2.0\RisingLegion.Core.csproj.CoreCompileInputs.cache
+C:\Users\albarracinca\RiderProjects\RisingLegion\RisingLegion.Core\obj\Debug\netstandard2.0\RisingLegion.Core.AssemblyInfoInputs.cache
+C:\Users\albarracinca\RiderProjects\RisingLegion\RisingLegion.Core\obj\Debug\netstandard2.0\RisingLegion.Core.AssemblyInfo.cs
+C:\Users\albarracinca\RiderProjects\RisingLegion\RisingLegion.Core\bin\Debug\netstandard2.0\RisingLegion.Core.deps.json
+C:\Users\albarracinca\RiderProjects\RisingLegion\RisingLegion.Core\bin\Debug\netstandard2.0\RisingLegion.Core.dll
+C:\Users\albarracinca\RiderProjects\RisingLegion\RisingLegion.Core\bin\Debug\netstandard2.0\RisingLegion.Core.pdb
+C:\Users\albarracinca\RiderProjects\RisingLegion\RisingLegion.Core\bin\Debug\netstandard2.0\RisingLegion.Helpers.dll
+C:\Users\albarracinca\RiderProjects\RisingLegion\RisingLegion.Core\bin\Debug\netstandard2.0\RisingLegion.Helpers.pdb
+C:\Users\albarracinca\RiderProjects\RisingLegion\RisingLegion.Core\obj\Debug\netstandard2.0\RisingLegion.Core.dll
+C:\Users\albarracinca\RiderProjects\RisingLegion\RisingLegion.Core\obj\Debug\netstandard2.0\RisingLegion.Core.pdb

@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RisingLegion", "RisingLegion\RisingLegion.csproj", "{76DB5F32-C581-4F1C-9231-CA242D2CCC95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{FE85A7CB-6A27-4C10-AFE1-5223D5146893}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{31D1CEE6-78AD-4042-BBCC-50516BF4B2DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{642D08FA-28C0-4CFB-BE80-261A3D3262BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{27C6656A-99A9-4D87-86DA-EF165FF28708}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{50027425-8200-44D7-9F74-3256F8D8F6AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RisingLegion.Core", "RisingLegion.Core\RisingLegion.Core.csproj", "{02AE2B53-6957-4D1C-AED4-E410A6123EEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RisingLegion.Helpers", "RisingLegion.Helpers\RisingLegion.Helpers.csproj", "{FFC4AFAC-D62B-4D49-A942-303D5A11E67B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RisingLegion.Test", "RisingLegion.Test\RisingLegion.Test.csproj", "{A710AD74-4235-48CC-9A52-FF8191E926F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76DB5F32-C581-4F1C-9231-CA242D2CCC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76DB5F32-C581-4F1C-9231-CA242D2CCC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76DB5F32-C581-4F1C-9231-CA242D2CCC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76DB5F32-C581-4F1C-9231-CA242D2CCC95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02AE2B53-6957-4D1C-AED4-E410A6123EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AE2B53-6957-4D1C-AED4-E410A6123EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AE2B53-6957-4D1C-AED4-E410A6123EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AE2B53-6957-4D1C-AED4-E410A6123EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC4AFAC-D62B-4D49-A942-303D5A11E67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC4AFAC-D62B-4D49-A942-303D5A11E67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC4AFAC-D62B-4D49-A942-303D5A11E67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC4AFAC-D62B-4D49-A942-303D5A11E67B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A710AD74-4235-48CC-9A52-FF8191E926F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A710AD74-4235-48CC-9A52-FF8191E926F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A710AD74-4235-48CC-9A52-FF8191E926F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A710AD74-4235-48CC-9A52-FF8191E926F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76DB5F32-C581-4F1C-9231-CA242D2CCC95} = {FE85A7CB-6A27-4C10-AFE1-5223D5146893}
+		{02AE2B53-6957-4D1C-AED4-E410A6123EEC} = {31D1CEE6-78AD-4042-BBCC-50516BF4B2DA}
+		{FFC4AFAC-D62B-4D49-A942-303D5A11E67B} = {31D1CEE6-78AD-4042-BBCC-50516BF4B2DA}
+		{A710AD74-4235-48CC-9A52-FF8191E926F6} = {50027425-8200-44D7-9F74-3256F8D8F6AF}
+	EndGlobalSection
+EndGlobal

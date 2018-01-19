@@ -1,0 +1,38 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\albarracinca\\RiderProjects\\RisingLegion\\RisingLegion.Core\\RisingLegion.Core.csproj",
+    "projectName": "RisingLegion.Core",
+    "projectPath": "C:\\Users\\albarracinca\\RiderProjects\\RisingLegion\\RisingLegion.Core\\RisingLegion.Core.csproj",
+    "outputPath": "C:\\Users\\albarracinca\\RiderProjects\\RisingLegion\\RisingLegion.Core\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {
+          "C:\\Users\\albarracinca\\RiderProjects\\RisingLegion\\RisingLegion.Helpers\\RisingLegion.Helpers.csproj": {
+            "projectPath": "C:\\Users\\albarracinca\\RiderProjects\\RisingLegion\\RisingLegion.Helpers\\RisingLegion.Helpers.csproj"
+          }
+        }
+      }
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "2.0.0"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RisingLegion.Helpers\RisingLegion.Helpers.csproj">
+      <Project>{FFC4AFAC-D62B-4D49-A942-303D5A11E67B}</Project>
+      <Name>RisingLegion.Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
